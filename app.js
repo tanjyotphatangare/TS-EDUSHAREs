@@ -16,7 +16,10 @@ window.signup = function () {
       alert("Signup successful");
       window.location.href = "home.html";
     })
-    .catch(err => alert(err.message));
+  .catch(err => {
+  console.log(err);
+  alert(err.message);
+});
 };
 
 // LOGIN
@@ -29,7 +32,10 @@ window.login = function () {
       alert("Login successful");
       window.location.href = "home.html";
     })
-    .catch(err => alert(err.message));
+    .catch(err => {
+  console.log(err);
+  alert(err.message);
+});
 };
 
 // AUTO LOGIN CHECK
