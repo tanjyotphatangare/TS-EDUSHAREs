@@ -1,4 +1,4 @@
-
+alert("JS Loaded");
 import { auth } from "./firebase.js";
 import {
   createUserWithEmailAndPassword,
